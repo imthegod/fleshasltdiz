@@ -87,6 +87,7 @@ footer .links-box:before { content: 'code: neo'; padding: 3px; background:#1d1d1
     -moz-border-radius: 3px;
     border-radius: 3px;   
 }
+.breadcrumb>li { color: #fff;}
 .post {
     border:0;
     padding-top: 20px;
@@ -104,6 +105,11 @@ hr {
 }
 .btn-default {
     color: #fff;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
+}
+.btn-danger {
+     color: #fff;
     background-color: #1d1d1d;
     border-color: #1d1d1d;
 }
@@ -199,6 +205,26 @@ hr {
     color: #1d1d1d;
     border-radius: 3px;
 }
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    background-color: #55943a;
+    border-color: #55943a;
+    cursor: default;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857;
+    text-decoration: none;
+    color: #55943a;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+
 
 ::-webkit-scrollbar-track{
     background: #fff;
