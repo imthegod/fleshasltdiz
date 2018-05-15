@@ -1,6 +1,7 @@
 body {
     font-family: calibri !important;
-    background: #1d1d1d
+    background: #1d1d1d;
+    background-color: #1d1d1d;
 }
 .container-fluid { 
     background: #1d1d1d;
