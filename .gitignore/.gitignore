@@ -113,6 +113,12 @@ hr {
     background-color: #1d1d1d;
     border-color: #1d1d1d;
 }
+.btn-danger:hover {
+   color: #fff;
+    background-color: #55943a;
+    border-color: #55943a;
+    transition: .5s;
+}
 .btn-default:hover {
     color: #fff;
     background-color: #55943a;
